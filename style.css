@@ -403,7 +403,7 @@ section {
   flex-wrap: wrap;
   white-space: normal;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1rem;
   justify-content: flex-start;
 }
 
@@ -422,6 +422,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 5rem;
 }
 
 .color-container {
