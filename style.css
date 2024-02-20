@@ -77,6 +77,15 @@ a:hover {
   display: none;
 }
 
+.logo-ham {
+  display: flex;
+  top: 0;
+  left: 0; 
+  height: 24px;
+  width: 40px;
+  margin: auto 0;
+}
+
 .hamburger-menu {
   position: relative;
   display: inline-block;
@@ -447,29 +456,33 @@ article .icon {
 }
 
 /*image slideshow*/
-#image_slideshow {
+
+#image-slideshow {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
 }
 .mySlides {
   display: none;
 }
 
 .img-container {
-  /* display: flex; */
-  align-items: center;
   width: 100%;
-  height: 600px;
+  height: auto;
 }
 
 /* Slideshow container */
 
 .slideshow-container {
-  max-width: 50vw;
+  max-width: 800px; /* Adjust maximum width for desktop view */
+  width: 100%;
   position: relative;
   align-items: center;
+  justify-content: center;
   margin-top: 5%;
 }
 

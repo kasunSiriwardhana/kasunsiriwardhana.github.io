@@ -29,11 +29,12 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#image-slideshow">Gallery</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">
+      <div class="logo-ham">
         <img src="./assets/kastronic_b.png" alt="My logo picture" />
       </div>
       <div class="hamburger-menu">
@@ -47,6 +48,7 @@
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#image-slideshow" onclick="toggleMenu()">Gallery</a></li>
         </div>
       </div>
     </nav>
@@ -421,35 +423,67 @@
         onclick="location.href='./#contact'"
       />
     </section>
-    <section id="image_slideshow">
+    <section id="image-slideshow">
       <div>
+        <p class="section__text__p1">View My</p>
+        <h1 class="title">Gallery</h1>
         <div class="slideshow-container">
           <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img class="img-container" src="./assets/slide1.jpg"> 
+            <div class="numbertext">1 / 8</div>
+            <img class="img-container" src="./assets/slide1.png"> 
             <div class="text">One</div>
           </div>
           <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img class="img-container" src="./assets/slide2.jpg" />
+            <div class="numbertext">2 / 8</div>
+            <img class="img-container" src="./assets/slide2.png" />
             <div class="text">Two</div>
           </div>
           <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img class="img-container" src="./assets/slide3.jpg">
+            <div class="numbertext">3 / 8</div>
+            <img class="img-container" src="./assets/slide3.png">
             <div class="text">Three</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 8</div>
+            <img class="img-container" src="./assets/slide4.png">
+            <div class="text">four</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 8</div>
+            <img class="img-container" src="./assets/slide5.png">
+            <div class="text">Five</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 8</div>
+            <img class="img-container" src="./assets/slide6.png">
+            <div class="text">Six</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 8</div>
+            <img class="img-container" src="./assets/slide7.png">
+            <div class="text">Seven</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 8</div>
+            <img class="img-container" src="./assets/slide8.png">
+            <div class="text">Eight</div>
           </div>
           <a class="prev" onclick="plusSlides(-1)">❮</a>
           <a class="next" onclick="plusSlides(1)">❯</a>
-      </div>
-      <br/>
+        </div>
+        <br/>
     
-      <div style="text-align: center">
+        <div style="text-align: center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
       </div>
-    </div>
     </section>
 
     <section id="contact">
@@ -482,6 +516,7 @@
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#image-slideshow">Gallery</a></li>
           </ul>
         </div>
       </nav>

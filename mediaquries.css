@@ -27,6 +27,10 @@
     .section-container {
       display: block;
     }
+    #image-slideshow {
+      display: flex;
+      margin-top: 5rem;
+    }
     .arrow {
       display: none;
     }
@@ -45,6 +49,7 @@
     .about-containers {
       margin-top: 0;
     }
+
   }
   
   @media screen and (max-width: 600px) {
