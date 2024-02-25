@@ -49,6 +49,9 @@
     .about-containers {
       margin-top: 0;
     }
+    .card-list .card-item {
+      padding: 15px;
+    }
 
   }
   
@@ -107,6 +110,9 @@
     }
     #bt-top{
       display: none;
+    }
+    .card-list {
+      margin: 0 auto;
     }
   }
   

@@ -696,16 +696,6 @@ footer p {
   object-fit: cover;
 }
 
-@media (max-width: 1200px) {
-  .card-list .card-item {
-      padding: 15px;
-  }
-}
-@media screen and (max-width: 980px) {
-  .card-list {
-      margin: 0 auto;
-  }
-}
 /* back to top */
 #bt-top {
   display: inline-block;
