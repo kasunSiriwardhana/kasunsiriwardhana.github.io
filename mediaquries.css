@@ -105,5 +105,8 @@
     .text-container {
       text-align: justify;
     }
+    #bt-top{
+      display: none;
+    }
   }
   
